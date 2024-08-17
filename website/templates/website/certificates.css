@@ -69,23 +69,4 @@ body.bg-light {
     z-index: 1;
   }
   
-  .fa-4x, .fa-5x {
-    color: #007bff; /* Change icon color */
-  }
-  
-  .fa-book-open {
-    color: #17a2b8;
-  }
-  
-  .fa-briefcase {
-    color: #28a745;
-  }
-  
-  .fa-medal {
-    color: #ffc107;
-  }
-  
-  .fa-laptop-code {
-    color: #dc3545;
-  }
   

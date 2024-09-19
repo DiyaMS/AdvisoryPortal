@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #ffffff, #e7e7e7);
+    padding: 10px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.welcome-message {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.welcome-message h2 {
+    font-size: 48px;
+    color: #000;
+}
+
+.welcome-message button {
+    padding: 10px 20px;
+    background-color: #197b99;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.welcome-message button:hover {
+    background-color: #197b99;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.navbar {
+    background-image: linear-gradient(to top, #002244, #001933);
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar ul li:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
